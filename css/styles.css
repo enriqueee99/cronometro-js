@@ -1,0 +1,42 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+
+.titulo{
+    margin-top: 10px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+button{
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 7px;
+    margin: 10px;
+    padding: var(--boton-padding: 20px 40px;)
+}
+
+img{
+    top: 0;
+    height: 200px;
+    width: 200px;
+}
+
+/*.cronometro{
+	height: vh;
+	background-image: var(--background);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}*/
